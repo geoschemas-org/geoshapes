@@ -1,8 +1,16 @@
-# SOS (science on schema) PySHACL 
+# GeoShapes
+
+This is a test.  We are using the puSHACL ( https://github.com/RDFLib/pySHACL ) library
+and wrapping it in Flask and exposing it via Google Cloud Run to provide an online 
+SHACL validation that can be part of an automated work flow.  
+
+This is also a test of using shape graphs to help define validation goals for 
+data graphs.  Especially those using schema.org and extensions to publish
+metadata around data sets following FAIR data patterns ( http://www.copdess.org/enabling-fair-data-project/ ).  
 
 ## Test Driven Graph Development
 
-SOStools is the start of working to explore a test driven model development
+This is the start of working to explore a test driven model development
 approach to working with schema.org and extensions.
 
 The goal is to use SHACL to define our goals as constraint and then
