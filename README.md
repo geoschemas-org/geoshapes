@@ -8,6 +8,27 @@ This is also a test of using shape graphs to help define validation goals for
 data graphs.  Especially those using schema.org and extensions to publish
 metadata around data sets following FAIR data patterns ( http://www.copdess.org/enabling-fair-data-project/ ).  
 
+## Tangram:  Simple service example
+
+
+The Tangram services is a web services  wrapper around the pySHACL
+(https://github.com/RDFLib/pySHACL) package.  It allows you to send in JSON-LD data 
+graphs to test against a Turtle (ttl) encoded shape graph.
+
+Invoke the tool with something like:
+
+With httpie client:
+
+```bash
+http -f POST https://tangram.geodex.org/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl
+```
+
+Or with good old curl:
+
+```bash
+curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=@./shapegraphs/googleRecommended.ttl'   https://tangram.geodex.org/uploader
+```
+
 ## Test Driven Graph Development
 
 This is the start of working to explore a test driven model development
