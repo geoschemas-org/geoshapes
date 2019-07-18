@@ -101,6 +101,7 @@ Ref: https://github.com/RDFLib/pySHACL/issues/18
 * https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
 * http://datashapes.org/
 * https://github.com/geological-survey-of-queensland/gsq-sample-profile/blob/master/shapes/sample.ttl
+* https://developers.google.com/search/docs/data-types/dataset#dataset 
 
 
 ## Notes
