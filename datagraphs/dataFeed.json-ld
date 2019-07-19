@@ -1,5 +1,6 @@
 {
   "@context": "http://schema.org/",
+  "@id": "http://lod.example-data-repository.org/id/dataset/3300",
   "@type": "Dataset",
   "name": "Dataset Name",
   "alternateName": "the alt name",
@@ -8,6 +9,7 @@
     {"@type": "Person", "name": "Doug"}
   ],
   "citation": "cite cite cite",
+  "description": "Ultra-mega cool data set",
   "identifier": "urn:example:1",
   "keywords": "data",
   "license": { "@value": "CC BY 0" },

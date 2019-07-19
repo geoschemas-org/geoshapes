@@ -11,30 +11,40 @@
     owl:imports <http://datashapes.org/dash> ;
     .
 
+ex:IDShape
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:message "Expect to see an ID for this resource"@en ;
+    sh:targetClass <http://schema.org/Dataset> .
+
 ex:URLShape
     a sh:NodeShape ;
     sh:property [
-        sh:path <http://schema.org/url>; 
+        sh:path <http://schema.org/url> ;
         sh:maxCount 1 ;
         sh:minCount 1 ;
-    ] ;
+        sh:nodeKind sh:IRIOrLiteral ;
+      ] ;
+    sh:message "This needs to be a schema:URL"@en ;
     sh:targetClass <http://schema.org/Dataset> .
     
 ex:DescriptionShape
     a sh:NodeShape ;
     sh:property [
         sh:path <http://schema.org/description>; 
-        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
         sh:minCount 1 ;
     ] ;
+    sh:message "Needs to be Text"@en ;
     sh:targetClass <http://schema.org/Dataset> .
 
 ex:NameShape
     a sh:NodeShape ;
     sh:property [
         sh:path <http://schema.org/name> ;
-        sh:maxCount 1 ;
+        sh:nodeKind sh:Literal ;
         sh:minCount 1 ;
     ] ;
+    sh:message "Needs to be Text"@en ;
     sh:targetClass <http://schema.org/Dataset> .
 
