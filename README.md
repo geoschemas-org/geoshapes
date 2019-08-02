@@ -20,13 +20,13 @@ Invoke the tool with something like:
 With httpie client:
 
 ```bash
-http -f POST https://tangram.geodex.org/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl
+http -f POST https://tangram.geodex.org/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl format=human
 ```
 
-Or with good old curl:
+Or with good old curl (with format set to huam):
 
 ```bash
-curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=@./shapegraphs/googleRecommended.ttl'   https://tangram.geodex.org/uploader
+curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=@./shapegraphs/googleRecommended.ttl' -F 'format=human'  https://tangram.geodex.org/uploader
 ```
 
 ## Test Driven Graph Development
@@ -36,6 +36,9 @@ approach to working with schema.org and extensions.
 
 The goal is to use SHACL to define our goals as constraint and then
 test our graphs against this constraint.  
+
+As an initial test we are using the Google required and recommend elements
+for schema.org/DataSet at https://developers.google.com/search/docs/data-types/dataset
 
 ## Set up a Python Env with pySHACL (see refs)
 

@@ -12,14 +12,22 @@ app = Flask(__name__,
         static_folder='web/static',
         template_folder='web/templates')
 
+# Add in a function that reads the local shape and returns human or machine response
+# It will be method GET with ?url=URL&mode=[human,machine]&shape=[required,recommended]
+@app.route('/netcheck', methods = ['GET'])
+def netcheck():
+        if request.method == 'GET':
+            render_template("index.html") 
+
+
 @app.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
         if request.method == 'POST':
-            dg  = request.files['datagraph']   # should try these too then error if not loadable to graph 
+            dg  = request.files['datagraph']   # should try these too then error if not loadable to graph
             sg  = request.files['shapegraph']
-            try: 
+            try:
                 f = request.form['format']
-            except: 
+            except:
                 f = 'robot'
 
             # Make some graphs and parse our uploads into them
@@ -36,11 +44,14 @@ def upload_file():
                 inference='none', debug=False,
                 serialize_report_graph=False)
 
-            # I default to robot, but then never both to test that  :(  
+            # I default to robot, but then never both to test that  :(
             if f == 'human':
                 return  '{} {}'.format(conforms, v_text)
             else:
                 return  v_graph.serialize()
+
+        if request.method == 'GET':
+            render_template("index.html") 
 
 
 #@app.route('/')
