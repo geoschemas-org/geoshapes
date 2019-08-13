@@ -2,7 +2,7 @@
 
 ## About
 
-A test program for Google Gloud Run for doing shacl conversion via pyshacl.  
+A test program using Google Gloud Run for doing shacl conversion via pyshacl.  
 
 ## Tangram:  Simple service example
 
@@ -26,5 +26,10 @@ curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=
 
 
 ## Refs
-
 * https://cloud.google.com/run/docs/quickstarts/build-and-deploy
+
+
+
+httpclient "http://localhost:8080/netcheck?url=http://opencoredata.org/id/dataset/5f475e43-6e23-44f6-821b-795d5f1f82d2&format=human&shape=required"
+
+

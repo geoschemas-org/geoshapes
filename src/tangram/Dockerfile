@@ -12,6 +12,8 @@ RUN pip install Flask gunicorn
 RUN pip install pyshacl
 RUN pip install jsonify
 RUN pip install rdflib
+RUN pip install extruct
+RUN pip install beautifulsoup4
 RUN mv /usr/local/bin/owlrl.py /usr/local/bin/owlrl 
 # ref https://github.com/RDFLib/OWL-RL/issues/29
 #RUN pip install owlrl
