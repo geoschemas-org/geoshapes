@@ -15,21 +15,25 @@ Invoke the tool with something like:
 With httpie client:
 
 ```bash
-http -f POST https://tangram.geodex.org/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl format=human
+httpclient -f POST https://tangram.gleaner.io/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl format=human
 ```
 
 Or with good old curl (with format set to huam):
 
 ```bash
-curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=@./shapegraphs/googleRecommended.ttl' -F 'format=human'  https://tangram.geodex.org/uploader
+curl -F  'datagraph=@./datagraphs/dataset-minimal-BAD.json-ld'  -F  'shapegraph=@./shapegraphs/googleRecommended.ttl' -F 'format=human'  https://tangram.gleaner.io/uploader
 ```
 
 
-## Refs
-* https://cloud.google.com/run/docs/quickstarts/build-and-deploy
+## Tangram testing a web page
+
+```bash
+httpclient "https://tangram.gleaner.io/ucheck?url=http://opencoredata.org/doc/dataset/b8d7bd1b-ef3b-4b08-a327-e28e1420adf0&format=human&shape=required"
+```
 
 
 
-httpclient "http://localhost:8080/netcheck?url=http://opencoredata.org/id/dataset/5f475e43-6e23-44f6-821b-795d5f1f82d2&format=human&shape=required"
+
+
 
 

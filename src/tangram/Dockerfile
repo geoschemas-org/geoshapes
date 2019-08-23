@@ -9,6 +9,7 @@ COPY . .
 
 # Install production dependencies.
 RUN pip install Flask gunicorn
+RUN pip install flask-cors
 RUN pip install pyshacl
 RUN pip install jsonify
 RUN pip install rdflib

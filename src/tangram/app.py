@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask, abort, request, jsonify, send_from_directory, render_template
+from flask_cors import CORS
 from pyshacl import validate
 import json
 import rdflib
@@ -14,6 +15,9 @@ app = Flask(__name__,
         static_url_path='',
         static_folder='web/static',
         template_folder='web/templates')
+
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Add in a function that reads the local shape and returns human or machine response
 # It will be method GET with ?url=URL&format=[human,machine]&shape=[required,recommended]
