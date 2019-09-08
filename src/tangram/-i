@@ -1,7 +1,0 @@
-HTTP/1.0 500 INTERNAL SERVER ERROR
-Content-Type: text/html; charset=utf-8
-X-XSS-Protection: 0
-Connection: close
-Server: Werkzeug/0.14.1 Python/3.6.8
-Date: Thu, 15 Aug 2019 19:57:08 GMT
-

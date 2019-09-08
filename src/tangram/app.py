@@ -97,7 +97,13 @@ def upload_file():
 #        return 'Tangram services are described at the GitHub Repo'
 @app.route("/")
 def index():
-        return render_template("index.html")
+
+        ct = request.headers.get('Accept')
+         
+        if "text/html" in ct:
+            return render_template("index.html")
+        else:
+            return render_template("index.txt")
 
 if __name__ == "__main__":
         app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
