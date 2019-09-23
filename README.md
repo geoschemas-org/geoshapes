@@ -151,8 +151,4 @@ curl -s http://opencoredata.org/sitemap.xml  | grep -o '<loc>.*</loc>' | sed 's/
 
 ```
 
-<img src="./docs/animation.svg">
-
-
-![Alt text](https://raw.githubusercontent.com/geoschemas-org/geoshapes/master/docs/animation.svg?sanitize=true)
-<img src="https://raw.githubusercontent.com/geoschemas-org/geoshapes/master/docs/animation.svg?sanitize=true">
+![Alt text](./docs/animation.svg)
