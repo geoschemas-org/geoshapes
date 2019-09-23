@@ -151,6 +151,4 @@ curl -s http://opencoredata.org/sitemap.xml  | grep -o '<loc>.*</loc>' | sed 's/
 
 ```
 
-
-
-![alt install](./docs/animation.svg "Tangram animation example")
+<img src="./docs/animation.svg">
