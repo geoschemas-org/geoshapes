@@ -133,3 +133,20 @@ Focus Node: [  ]
 Result Path: <http://schema.org/citation>
 ```
 
+Use fencepull command to get the JSON-LD and feed through Tangram. 
+
+```
+curl -s https://fence.gleaner.io/fencepull?url=http://opencoredata.org/doc/dataset/b8d7bd1b-ef3b-4b08-a327-e28ei \
+1420adf0 | curl -F  'datagraph=@-'  -F  'shapegraph=@./shapegraphs/googleRequired.ttl' -F 'format=human'  https://tangram.gleaner.io/uploader
+
+```
+
+```
+xmllint --xpath "/urlset/url/loc/text()" test.xml > out
+
+curl -s http://opencoredata.org/sitemap.xml  | grep -o '<loc>.*</loc>' | sed 's/\(<loc>\|<\/loc>\)//g' | head -3
+
+curl -s http://opencoredata.org/sitemap.xml  | grep -o '<loc>.*</loc>' | sed 's/\(<loc>\|<\/loc>\)//g' | sed -n "100,110p"
+
+
+```
