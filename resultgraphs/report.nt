@@ -1,0 +1,131 @@
+_:N2902cfeccffc45f0837001218f760abc <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/ns/shacl#resultPath> <http://schema.org/temporalCoverage> .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> .
+_:Neb15db5b47304d12a78ad7c561f0a96f <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/version> "2013-11-21" .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/additionalType> "http://vivoweb.org/ontology/core#Dataset" .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/additionalType> "http://vivoweb.org/ontology/core#Dataset" .
+_:N7563e1c47db4449d99be39796217eb18 <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/license> "CC-BY-4.0" .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/ns/shacl#focusNode> _:Nf2540699a4524cdc9f6b80ce32e00348 .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665785> .
+_:N25eafacfd88145649057b439a06a90ac <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N7563e1c47db4449d99be39796217eb18 <http://www.w3.org/ns/shacl#or> _:Ne6b9644ce53a43e7a6ca72819147a36f .
+_:Ne90695d4b9a54815b97880ea8653573f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Ndb46c2b4f40347f3b76a6fef35cce4a0 .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/ns/shacl#resultPath> <http://schema.org/spatialCoverage> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665787> .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/keywords> "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/keywords> "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationResult> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/description> "This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass." .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/url> "https://www.bco-dmo.org/dataset/foo" .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/ns/shacl#resultPath> <http://schema.org/sameAs> .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/url> "https://www.bco-dmo.org/dataset/foo" .
+_:N4bb4fe687bd0490fb5e91288e018a1e4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#result> _:N9f78fc3ffa534040b97667e9828d0630 .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665787> .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/ns/shacl#resultPath> <http://schema.org/alternateName> .
+_:N7563e1c47db4449d99be39796217eb18 <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Ne6b9644ce53a43e7a6ca72819147a36f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N2902cfeccffc45f0837001218f760abc .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/license> "CC-BY-4.0" .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/version> "2013-11-21" .
+_:Nb253f08627024db1ac8af5fa39669301 <http://www.w3.org/ns/shacl#path> <http://schema.org/sameAs> .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/ns/shacl#focusNode> _:N46b6012373104b529fa828a5bc95f8f6 .
+_:Neb15db5b47304d12a78ad7c561f0a96f <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665785> .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/additionalType> "http://vivoweb.org/ontology/core#Dataset" .
+_:Neb15db5b47304d12a78ad7c561f0a96f <http://www.w3.org/ns/shacl#path> <http://schema.org/temporalCoverage> .
+_:N3f9401abfab942b4860579993cb9595a <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Nb253f08627024db1ac8af5fa39669301 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRIOrLiteral> .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationResult> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/description> "This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass." .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#Dataset" .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/identifier> <https://doi.org/10.1575/1912/bco-dmo.665253> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665785> .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> .
+_:N3f9401abfab942b4860579993cb9595a <http://www.w3.org/ns/shacl#or> _:N9fa0f54231d342399eba4070fd7555e8 .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/ns/shacl#sourceShape> _:Neb15db5b47304d12a78ad7c561f0a96f .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/identifier> <https://doi.org/10.1575/1912/bco-dmo.665253> .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665787> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/identifier> <https://doi.org/10.1575/1912/bco-dmo.665253> .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationResult> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/url> "https://www.bco-dmo.org/dataset/foo" .
+_:Ndb46c2b4f40347f3b76a6fef35cce4a0 <http://www.w3.org/ns/shacl#class> <http://schema.org/Place> .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/ns/shacl#sourceShape> _:N3f9401abfab942b4860579993cb9595a .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#conforms> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/additionalType> "http://vivoweb.org/ontology/core#Dataset" .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/ns/shacl#sourceShape> _:Nb253f08627024db1ac8af5fa39669301 .
+_:N7168ffb348ab4766969395d3df5006c6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/name> "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#result> _:N9cfc69e8acdc4ba09f765b9a095356d9 .
+_:N25eafacfd88145649057b439a06a90ac <http://www.w3.org/ns/shacl#path> <http://schema.org/alternateName> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/name> "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/name> "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> .
+_:N3f9401abfab942b4860579993cb9595a <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/license> "CC-BY-4.0" .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/ns/shacl#focusNode> _:N69ebe0d463d3492ea75f1ba9baf6f1d8 .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/name> "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" .
+_:N9cfc69e8acdc4ba09f765b9a095356d9 <http://www.w3.org/ns/shacl#focusNode> _:N68903cfd1c2145b59a5fc8653f73da1e .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#Dataset" .
+_:N4bb4fe687bd0490fb5e91288e018a1e4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N5dfc30b464274393bb9eaa84e2beee85 .
+_:N25eafacfd88145649057b439a06a90ac <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationResult> .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/ns/shacl#resultPath> <http://schema.org/citation> .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/version> "2013-11-21" .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationReport> .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#result> _:N94bbf684a42642efbd20fea5a4016954 .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#Dataset" .
+_:Nbc6149e6ccc54b8eb545a450774db9ba <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/ns/shacl#focusNode> _:N7168ffb348ab4766969395d3df5006c6 .
+_:N94bbf684a42642efbd20fea5a4016954 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/description> "This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass." .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665787> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665787> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/keywords> "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/url> "https://www.bco-dmo.org/dataset/foo" .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/identifier> <https://doi.org/10.1575/1912/bco-dmo.665253> .
+_:N9fa0f54231d342399eba4070fd7555e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nbc6149e6ccc54b8eb545a450774db9ba .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/keywords> "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" .
+_:Ne90695d4b9a54815b97880ea8653573f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:N25eafacfd88145649057b439a06a90ac <http://www.w3.org/ns/shacl#not> _:Nc73ca367509f41f483fc9562f38983d9 .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/license> "CC-BY-4.0" .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/version> "2013-11-21" .
+_:N69ebe0d463d3492ea75f1ba9baf6f1d8 <http://schema.org/url> "https://www.bco-dmo.org/dataset/foo" .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/description> "This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass." .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/name> "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" .
+_:N5dfc30b464274393bb9eaa84e2beee85 <http://www.w3.org/ns/shacl#class> <http://schema.org/CreativeWork> .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665785> .
+_:Nb253f08627024db1ac8af5fa39669301 <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N7168ffb348ab4766969395d3df5006c6 <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#Dataset" .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> .
+_:N3f9401abfab942b4860579993cb9595a <http://www.w3.org/ns/shacl#path> <http://schema.org/spatialCoverage> .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/license> "CC-BY-4.0" .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/variableMeasured> <https://www.bco-dmo.org/dataset-parameter/665785> .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/ns/shacl#sourceShape> _:N7563e1c47db4449d99be39796217eb18 .
+_:N9f78fc3ffa534040b97667e9828d0630 <http://www.w3.org/ns/shacl#sourceShape> _:N25eafacfd88145649057b439a06a90ac .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#Dataset" .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/keywords> "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" .
+_:Ned4185c0f1c24a3692560da6a8ca8593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ValidationResult> .
+_:Ne6b9644ce53a43e7a6ca72819147a36f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N4bb4fe687bd0490fb5e91288e018a1e4 .
+_:N46b6012373104b529fa828a5bc95f8f6 <http://schema.org/additionalType> "http://vivoweb.org/ontology/core#Dataset" .
+_:Neb15db5b47304d12a78ad7c561f0a96f <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/version> "2013-11-21" .
+_:N9fa0f54231d342399eba4070fd7555e8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ne90695d4b9a54815b97880ea8653573f .
+_:Nb253f08627024db1ac8af5fa39669301 <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Nc73ca367509f41f483fc9562f38983d9 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#result> _:Ned4185c0f1c24a3692560da6a8ca8593 .
+_:Nf2540699a4524cdc9f6b80ce32e00348 <http://schema.org/description> "This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass." .
+_:N68903cfd1c2145b59a5fc8653f73da1e <http://schema.org/identifier> <https://doi.org/10.1575/1912/bco-dmo.665253> .
+_:N7f99b970999448f3936341e660c61067 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> .
+_:N7563e1c47db4449d99be39796217eb18 <http://www.w3.org/ns/shacl#path> <http://schema.org/citation> .
+_:Ncb86151186ed4b8b99e2a1464e5f6b87 <http://www.w3.org/ns/shacl#result> _:N7f99b970999448f3936341e660c61067 .
+
