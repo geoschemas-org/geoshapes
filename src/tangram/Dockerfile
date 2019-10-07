@@ -12,7 +12,8 @@ RUN pip install Flask gunicorn
 RUN pip install flask-cors
 RUN pip install pyshacl
 RUN pip install jsonify
-RUN pip install rdflib
+RUN pip install -e git+https://github.com/RDFLib/rdflib.git@af625d0bc48b656b614629b9ad56df63b88a0d17#egg=rdflib
+# RUN pip install rdflib  need the dev version above for skolemize with authority attribute
 RUN pip install extruct
 RUN pip install beautifulsoup4
 RUN mv /usr/local/bin/owlrl.py /usr/local/bin/owlrl 

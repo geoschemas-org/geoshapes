@@ -87,7 +87,12 @@ def upload_file():
         if f == 'human':
             return '{} {}'.format(conforms, v_text)
         else:
-            return v_graph.serialize(format="nt")
+            # return v_graph.serialize(format="nt")
+            skolemver = v_graph.skolemize(authority="http://ld.geoschemas.org")
+            return skolemver.serialize(format="nt")
+
+
+        # https://stackoverflow.com/questions/4427607/rdflib-namespace-prefixes-in-xml-serialization
 
     if request.method == 'GET':
         render_template("index.html")

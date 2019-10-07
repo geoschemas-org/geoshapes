@@ -16,6 +16,10 @@ With httpie client:
 
 ```bash
 httpclient -f POST https://tangram.gleaner.io/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl format=human
+
+localhost
+httpclient -f POST http://localhost:8080/uploader  datagraph@./datagraphs/dataset-minimal-BAD.json-ld  shapegraph@./shapegraphs/googleRecommended.ttl format=human
+
 ```
 
 Or with good old curl (with format set to huam):
