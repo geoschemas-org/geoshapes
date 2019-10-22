@@ -28,8 +28,10 @@ ex:DescriptionShape
         sh:path <http://schema.org/description>; 
         sh:nodeKind sh:Literal ;
         sh:minCount 1 ;
+        sh:minLength 50 ;
+        sh:maxLength 5000 ;
     ] ;
-    sh:message "Needs to be Text"@en ;
+    sh:message "Needs to be Text between 50 and 5000 characters"@en ;
     sh:targetClass <http://schema.org/Dataset> .
 
 ex:NameShape
