@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask, abort, request, jsonify, send_from_directory, render_template
 from flask_cors import CORS
 from pyshacl import validate
@@ -9,6 +8,7 @@ import requests
 from rdflib import Graph, plugin
 from rdflib.serializer import Serializer
 from bs4 import BeautifulSoup
+import urllib
 import urllib.request
 
 app = Flask(__name__,
@@ -21,6 +21,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Add in a function that reads the local shape and returns human or machine response
 # It will be method GET with ?url=URL&format=[human,machine]&shape=[required,recommended]
+# /rescheck
 @app.route('/ucheck', methods=['GET'])
 def netcheck():
     if request.method == 'GET':
@@ -38,11 +39,17 @@ def netcheck():
         sr = s.parse(sg, format="ttl")
 
         html = urllib.request.urlopen(u).read()
-        soup = BeautifulSoup(html, "html.parser")
-        p = soup.find('script', {'type': 'application/ld+json'})
-
         d = rdflib.Graph()
-        dr = d.parse(data=p.contents[0], format="json-ld")
+
+        if ".jsonld" in u:
+            with urllib.request.urlopen(u) as response:
+                jld = response.read()
+            dr = d.parse(data=jld, format="json-ld")
+
+        else:
+            soup = BeautifulSoup(html, "html.parser")
+            p = soup.find('script', {'type': 'application/ld+json'})
+            dr = d.parse(data=p.contents[0], format="json-ld")
 
         # call pySHACL
         conforms, v_graph, v_text = validate(dr, shacl_graph=sr,
@@ -57,6 +64,7 @@ def netcheck():
         else:
             return v_graph.serialize(format="nt")
 
+# /validate 
 
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
@@ -91,12 +99,8 @@ def upload_file():
             skolemver = v_graph.skolemize(authority="http://ld.geoschemas.org")
             return skolemver.serialize(format="nt")
 
-
-        # https://stackoverflow.com/questions/4427607/rdflib-namespace-prefixes-in-xml-serialization
-
     if request.method == 'GET':
         render_template("index.html")
-
 
 # @app.route('/')
 # def hello_world():

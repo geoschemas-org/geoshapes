@@ -11,12 +11,6 @@
     owl:imports <http://datashapes.org/dash> ;
     .
 
-ex:IDShape
-    a sh:NodeShape ;
-    sh:nodeKind sh:IRI ;
-    sh:message "Expect to see an ID for this resource"@en ;
-    sh:targetClass <http://schema.org/Dataset> .
-
 ex:URLShape
     a sh:NodeShape ;
     sh:property [
@@ -34,8 +28,10 @@ ex:DescriptionShape
         sh:path <http://schema.org/description>; 
         sh:nodeKind sh:Literal ;
         sh:minCount 1 ;
+        sh:minLength 50 ;
+        sh:maxLength 5000 ;
     ] ;
-    sh:message "Needs to be Text"@en ;
+    sh:message "Needs to be Text between 50 and 5000 characters"@en ;
     sh:targetClass <http://schema.org/Dataset> .
 
 ex:NameShape
